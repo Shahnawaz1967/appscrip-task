@@ -26,7 +26,7 @@ export default function Header() {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <Link href="/" className={styles.logo} onClick={closeMenu}>
-          LOGO
+          scripShop
         </Link>
         <div className={styles.desktopNav}>
           <Link href="/">Home</Link>

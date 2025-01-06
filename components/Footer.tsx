@@ -18,7 +18,7 @@ export default function Footer() {
       <div className={styles.topSection}>
         <div className={styles.subscribeSection}>
           <h3>BE THE FIRST TO KNOW</h3>
-          <p>Sign up for updates from mettā muse.</p>
+          <p>Sign up for updates from appscrip.</p>
           <form onSubmit={handleSubscribe} className={styles.subscribeForm}>
             <input
               type="email"
