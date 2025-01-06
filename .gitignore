@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+
+# Next.js build output
+.next/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js static file generation
+out/
+
+# VSCode settings (optional)
+.vscode/
+
+# IDE settings (optional)
+.idea/
+
+# Build directory
+dist/
+
+# Optional: coverage directory for testing tools like Jest
+coverage/
+.vercel

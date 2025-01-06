@@ -1,0 +1,199 @@
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 40px 20px;
+}
+
+.topSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.subscribeSection h3,
+.contactSection h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.subscribeForm {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.subscribeForm input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+}
+
+.subscribeForm input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.subscribeForm button {
+  padding: 10px 20px;
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.subscribeForm button:hover {
+  opacity: 0.9;
+}
+
+.currency {
+  margin-top: 30px;
+}
+
+.currencySelector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.flag {
+  width: 20px;
+  height: 15px;
+}
+
+.currencyNote {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.mainContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.brandSection h3,
+.quickLinks h3,
+.followSection h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.brandSection ul,
+.quickLinks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.brandSection li,
+.quickLinks li {
+  margin-bottom: 10px;
+}
+
+.brandSection a,
+.quickLinks a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.brandSection a:hover,
+.quickLinks a:hover {
+  opacity: 0.8;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 15px;
+}
+
+.socialLinks img {
+  width: 24px;
+  height: 24px;
+}
+
+.paymentSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.paymentSection h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.paymentMethods {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.paymentMethods img {
+  height: 30px;
+  object-fit: contain;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .topSection {
+    grid-template-columns: 1fr;
+  }
+
+  .mainContent {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .socialLinks {
+    justify-content: center;
+  }
+
+  .subscribeForm {
+    flex-direction: column;
+  }
+
+  .subscribeForm button {
+    width: 100%;
+  }
+
+  .paymentMethods {
+    gap: 10px;
+  }
+
+  .paymentMethods img {
+    height: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 20px 15px;
+  }
+
+  .topSection,
+  .mainContent {
+    gap: 30px;
+  }
+
+  .paymentMethods img {
+    height: 20px;
+  }
+}
+
